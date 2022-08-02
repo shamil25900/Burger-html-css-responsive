@@ -1,0 +1,3066 @@
+
+/* Global classes */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    padding: 10rem 0rem;
+}
+
+.heading-one {
+    font-size: 9.1rem;
+    padding: 5rem 0rem;
+}
+
+.heading-two {}
+
+p{
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+
+/* -------------------style-------------- */
+
+/* ----------------------header part--------- */
+header {
+    background: url(../img/bg-01.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(180deg, #000000d4 34%, #00000000);
+}
+
+.logo {
+
+    padding: 2rem 5rem;
+
+    position: relative;
+
+    left: 3rem;
+}
+
+.logo img {
+    height: auto;
+    width: 7rem;
+}
+
+.menu_list {
+    position: absolute;
+    right: 7rem;
+}
+
+.menu_list ul {
+    text-align: center;
+}
+
+.menu_list li {
+
+list-style: none;
+
+display: inline-block;
+}
+
+.menu_list a {
+
+    color: white;
+
+    text-transform: uppercase;
+
+    font-size: 2rem;
+
+    padding: 1rem 4rem;
+
+    margin: 0rem 1rem;
+
+    font-weight: 600;
+}
+
+.menu_list a:hover {}
+
+.hero_part {
+
+    padding: 8rem 0rem 10rem 0rem;
+}
+
+.hero-writing {
+
+    color: white;
+}
+
+.hero-writing h1 {
+
+font-size: 8.5rem;
+
+padding: 5rem 0rem;
+}
+
+.hero-writing p {
+    
+font-size: 3rem;
+    
+width: 47%;
+    
+padding: 2rem 4rem 2rem 0rem;
+}
+
+.hero-btn {
+
+    padding-top: 4.2rem;
+}
+
+.hero-btn button {
+
+padding: 2rem 7rem;
+
+font-size: 2.5rem;
+
+font-weight: 600;
+
+border-radius: 5rem;
+
+background-color: #f64b3c;
+
+color: white;
+
+cursor: pointer;
+}
+
+.hero-btn button:hover {}
+
+
+/* <!-- -----------------------chef-section--------- --> */
+#chef {
+    background: url(../img/bg-02.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.chef-writing {
+    text-align: center;
+    margin: auto;
+}
+
+.chef-writing h2 {
+    font-size: 4rem;
+    color: #f64b3c;
+}
+
+.chef-writing p {
+    width: 40%;
+    font-size: 2rem;
+    color: #f64b3c;
+    padding: 2rem 0rem;
+    margin: auto;
+}
+
+.chef-box-part {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 18rem 0rem 0rem 0rem;
+    margin: auto;
+    text-align: center;
+}
+
+.chef-box {}
+
+.chef-box img {
+    width: 90%;
+    height: auto;
+}
+
+.chef-box h3 {
+    font-size: 3.8rem;
+    padding: 2rem 0rem;
+    color: #f64b3c;
+}
+
+.chef-box h4 {
+    font-size: 2.5rem;
+    color: #f64b3c;
+}
+
+.box-1 {}
+
+.box-2 {}
+
+.box-3 img {
+}
+
+/* <!-- -----------------------best burger _section---------  --> */
+#best_burger {
+    background-color: #f64b3c;
+}
+.best-burger-row{
+
+display: flex;
+
+align-items: center;
+}
+.best_burger_img {
+    flex: 1;
+}
+
+.best_burger_img img {
+    width: 75%;
+    height: auto;
+}
+
+.best_burger_writing {flex: 1;}
+
+.best_burger_writing h4 {
+    font-size: 7rem;
+    color: white;
+}
+
+.best_burger_writing p {
+    padding: 4rem 2rem 4rem 0rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.best_burger_writing button{
+    padding: 2rem 5rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: #f64b3c;
+}
+
+/* <!-- -----------------------big burger=section----------  --> */
+
+#big_burger {
+    background: url(../img/ng-04.png) no-repeat;
+    background-size: 100% 100%;
+}
+.big-burger-row{
+
+display: flex;
+
+justify-content: space-around;
+
+align-items: center;
+}
+
+.big_burger_writing {
+    flex: 1;
+}
+
+.big_burger_writing h4 {
+    font-size: 7rem;
+    color: #f64b3c;
+}
+
+.big_burger_writing p {
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 4rem 3rem 4rem 0rem;
+    color: #f64b3c;
+}
+
+.big_burger_writing button {
+    padding: 2rem 5rem;
+    font-size: 2.7rem;
+    font-weight: 600;
+    background-color: #f64b3c;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: white;
+
+}
+
+.big_burger_img {flex: 1;text-align: center;}
+
+.big_burger_img img {
+    width: 75%;
+    height: auto;
+}
+
+/* <!-- --------------------statistics section------------ --> */
+#statistics {
+    background-color: #f64b3c;
+    width: 100%;
+}
+
+.statistics-writing {
+    width: 67%;
+    margin: auto;
+    text-align: center;
+}
+
+.statistics-writing h4 {
+    font-size: 5rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.statistics-writing p {
+    font-size: 3rem;
+    font-weight: 200;
+    color: white;
+    padding: 1rem 4rem 4rem 4rem;
+}
+
+.statistics-box-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.statistics-box {
+    padding: 6rem;
+    border: 1rem solid white;
+    border-radius: 100%;
+}
+
+.statistics-box h4 {
+    color: white;
+    padding: 1rem;
+}
+
+.statistics-box h5 {
+    font-size: 3rem;
+    color: white;
+}
+
+.sbox-1 {}
+
+.sbox-2 {
+    padding: 6rem 5rem;
+}
+
+.sbox-3 {}
+
+/* <!-- ------------------------popular section-----------  --> */
+#popular {
+    background: url(../img/bg-06.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.popular-heading {
+    margin: auto;
+    text-align: center;
+}
+
+.popular-heading h1 {font-size: 6rem;text-transform: capitalize;color: #f64b3c;word-spacing: 2rem;}
+
+.popular-box-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 11rem;
+}
+
+.popular-box {
+    text-align: center;
+    padding: 5rem 0rem;
+    background-color: white;
+    width: 25%;
+    border-radius: 1rem;
+}
+
+.popular-box h5 {
+    font-size: 3rem;
+    color: #f64b3c;
+    padding-bottom: 1rem;
+}
+
+.popular-box img {
+    width: 30%;
+    padding-top: 1rem;
+}
+
+.popular-box h6 {
+    font-size: 4rem;
+    color: #f64b3c;
+    padding-top: 2rem;
+}
+
+.popular-box p {
+    font-size: 2rem;
+    color: #f64b3c;
+    padding: 3rem .8rem;
+}
+
+.popular-box button {
+    padding: 2rem 5rem;
+    font-size: 1.8rem;
+    border-radius: 5rem;
+    background-color: #f64b3c;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pbox-1 {}
+
+.pbox-2 {}
+
+.pbox-3 {}
+
+/* <!-- ---------------------------barry section-----------  --> */
+#barry {
+    background: url(../img/bg-07.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.barry-writing {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 11rem 0rem;
+}
+
+.barry-writing p {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.barry-writing h3 {
+    font-size: 3.8rem;
+    color: white;
+    padding-top: 5rem;
+}
+
+/* <!-- ----------------------------dmup section----------------- --> */
+#dmup {
+    background: url(../img/bg-08.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.dmup-writing-part {
+    margin: auto;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+.dmup-writing-part h2 {
+    font-size: 6rem;
+    word-spacing: 1.4rem;
+    color: #f64b3c;
+}
+
+.dmup-writing-part p {
+    font-size: 2.6rem;
+    color: #f64b3c;
+    padding: 4rem 0rem;
+    width: 50%;
+    margin: auto;
+}
+
+.dmup-form {
+    width: 56%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 15rem;
+}
+
+.dmup-form label {}
+
+#inputemail {
+    padding: 1.3rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 5rem 0rem 0rem 5rem;
+    width: 63%;
+}
+
+.dmup-form input{
+    
+}
+
+.dmup-form input[type="submit"] {
+    padding: 1.3rem 3rem;
+    font-size: 1.7rem;
+    background-color: #f64b3c;
+    border-radius: 0rem 5rem 5rem 0rem;
+    cursor: pointer;
+    position: relative;
+    right: .3%;
+    color: white;
+}
+
+
+/* <!-- ---------------------------details section----------------  --> */
+#details {
+    background-color: #222222;
+    background-size: 100% 100%;
+}
+.details-row{
+    
+display: flex;
+align-items: center;
+}
+.title {
+    flex: 4.7;
+}
+
+.title h2 {
+    font-size: 4rem;
+    color: white;
+    word-spacing: 1.5rem;
+}
+
+.title p {
+    font-size: 2.5rem;
+    color: white;
+    width: 89%;
+    padding: 5rem 0rem;
+}
+
+.icon-part {}
+
+
+.icon-part a i {
+    margin-right: 1.5rem;
+    font-size: 2.8rem;
+}
+
+.icon-part i::before {padding: .8rem;
+    background-color: white;
+    border-radius: 5rem;
+    color: black;}
+
+.about {
+    flex: 2.4;
+}
+.about h3{
+
+font-size: 2.5rem;
+
+color: rgb(255 255 255);
+}
+
+.about ul {
+    padding: 3rem 0rem;
+}
+
+.about li {
+    list-style: none;
+    padding: 1rem 0rem;
+}
+
+.about a {color: white;font-size: 1.6rem;}
+
+.services {
+}
+.services h3{
+
+font-size: 2.5rem;
+
+color: white;
+}
+
+.services ul {
+    padding: 3rem 0rem;
+}
+
+.services li {
+    list-style: none;
+    padding: 1rem 0rem;
+}
+
+.services a {
+    font-size: 1.6rem;
+    color: rgb(255 255 255);
+}
+
+.others {
+    flex: 1.2;
+}
+.others h3{
+    
+font-size: 2.5rem;
+    
+color: white;
+}
+
+.others ul {
+    padding: 3rem 0rem;
+}
+
+.others li{
+
+list-style: none;
+
+padding: 1rem 0rem;
+} 
+.others a {
+
+font-size: 1.6rem;
+
+color: rgb(255 255 255);
+}
+
+
+/* -----------------------media queries-----------------  */
+/* ----------------------small size laptop desktop---------------  */
+@media (min-width:1201px) and (max-width:1439px){
+    .hero_part {
+
+        padding: 8rem 0rem 10rem 0rem;
+    }
+    
+    .hero-writing {
+    
+        color: white;
+    }
+    
+    .hero-writing h1 {
+    
+font-size: 7.3rem;
+    
+padding: 5rem 0rem;
+    }
+    
+    .hero-writing p {
+        
+font-size: 2.5rem;
+        
+width: 57%;
+        
+padding: 2rem 4rem 2rem 0rem;
+    }
+    
+    .hero-btn {
+    
+padding-top: 4.2rem;
+    }
+    
+    .hero-btn button {
+    
+padding: 2rem 5rem;
+    
+font-size: 2.4rem;
+    }
+
+/* <!-- -----------------------chef-section--------- --> */
+.chef-writing p {
+    width: 45%;
+}
+.chef-box-part {
+    width: 90%;
+    padding: 8rem 0rem 0rem 0rem;
+}
+
+.chef-box {}
+
+.chef-box img {
+    width: 19rem;
+    height: 19rem;
+}
+
+.chef-box h3 {
+    font-size: 3.6rem;
+}
+
+.chef-box h4 {
+    font-size: 2.3rem;
+}
+/* <!-- -----------------------best burger _section---------  --> */
+.best_burger_img {
+    position: relative;
+    left: 5rem;
+}
+
+.best_burger_img img {
+}
+
+.best_burger_writing {
+}
+
+.best_burger_writing h4 {
+    font-size: 6rem;
+}
+
+.best_burger_writing p {
+    font-size: 2.5rem;
+}
+
+.best_burger_writing button{
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: #f64b3c;
+}
+
+/* <!-- -----------------------big burger=section----------  --> */
+
+.big_burger_writing {
+}
+
+.big_burger_writing h4 {
+    font-size: 6rem;
+}
+
+.big_burger_writing p {
+    font-size: 2.5rem;
+}
+
+.big_burger_writing button {
+    padding: 2rem 5rem;
+    font-size: 2.7rem;
+    font-weight: 600;
+    background-color: #f64b3c;
+    border-radius: 5rem;
+    cursor: pointer;
+    color: white;
+
+}
+
+.big_burger_img {
+}
+
+.big_burger_img img {
+    width: 80%;
+    position: relative;
+    left: 5rem;
+}
+
+/* <!-- --------------------statistics section------------ --> */
+
+.statistics-writing {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.statistics-writing h4 {
+    font-size: 5rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.statistics-writing p {
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
+    width: 70%;
+    margin: auto;
+}
+
+.statistics-box-part {
+}
+
+.statistics-box {
+    padding: 5rem;
+    border: 1rem solid white;
+    border-radius: 100%;
+}
+
+.statistics-box h4 {font-size: 8rem;}
+
+.statistics-box h5 {
+    font-size: 3rem;
+    color: white;
+}
+
+/* <!-- ------------------------popular section-----------  --> */
+
+.popular-heading {
+}
+
+.popular-heading h1 {
+    font-size: 5.9rem;
+    word-spacing: 1.5rem;
+}
+
+.popular-box-part {
+    padding-top: 11rem;
+}
+
+.popular-box h6 {
+    font-size: 3rem;
+    
+}
+
+.popular-box p {
+    font-size: 1.8rem;
+    padding: 3rem 1rem;
+}
+
+.popular-box button {
+    padding: 2rem 4rem;
+    font-size: 1.7rem;
+}
+
+
+/* <!-- ---------------------------barry section-----------  --> */
+
+.barry-writing {
+    width: 75%;
+}
+
+.barry-writing p {
+    font-size: 2.6rem;
+    line-height: 1.5;
+}
+
+
+/* <!-- ----------------------------dmup section----------------- --> */
+
+.dmup-writing-part h2 {
+    font-size: 6rem;
+    word-spacing: 1.4rem;
+}
+
+.dmup-writing-part p {
+    font-size: 2.3rem;
+    width: 59%;
+}
+/* <!-- ---------------------------details section----------------  --> */
+.title h2 {
+    font-size: 3.8rem;
+    word-spacing: 1.3rem;
+}
+
+.title p {
+    font-size: 2rem;
+    width: 80%;
+    padding: 4rem 0rem;
+}
+
+
+/* ------------------------- */
+.fa-instagram:before {
+    color: black;
+    padding: .8rem;
+    background-color: white;
+    border-radius: 5rem;
+    }
+
+    .fa-facebook-f:before{
+        color: black;
+        padding: 0.8rem 1.2rem;
+        background-color: white;
+        border-radius: 5rem;
+    }
+
+    .fa-twitter:before{
+        color: black;
+        padding: .8rem .9rem;
+        background-color: white;
+        border-radius: 5rem;
+    }
+
+    .fa-whatsapp:before{
+        color: black;
+        padding: .8rem 1rem;
+        background-color: white;
+        border-radius: 5rem;
+    }
+/* ------------------------- */
+
+.icon-part a i {
+    font-size: 2.2rem;
+}
+
+.about h3{font-size: 2.3rem;}
+
+.about ul {
+    padding: 2rem 0rem;
+}
+
+.about li {
+    padding: .5rem 0rem;
+}
+
+.about a {
+    font-size: 1.4rem;
+    }
+
+.services h3{font-size: 2.3rem;}
+
+.services ul {
+    padding: 2rem 0rem;
+}
+
+.services li {
+    padding: .5rem 0rem;
+}
+
+.services a {
+    font-size: 1.4rem;
+}
+.others h3{font-size: 2.3rem;}
+
+.others ul {
+    padding: 2rem 0rem;
+}
+
+.others li{padding: .5rem 0rem;} 
+.others a {
+font-size: 1.4rem;
+}
+
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+    nav {
+    padding-top: 1rem;
+    }
+    
+    .logo {
+    
+padding: 0rem 5rem;
+    
+position: relative;
+    
+left: 1rem;
+    
+top: 1rem;
+    }
+    
+    .logo img {
+        height: auto;
+        width: 5rem;
+    }
+    
+    .menu_list {
+        position: absolute;
+        right: 3rem;
+    }
+    
+    .menu_list ul {
+    }
+    
+    .menu_list li {
+    }
+    
+    .menu_list a {
+    
+font-size: 1.6rem;
+    
+padding: 1rem 2rem;
+    
+margin: 0rem 1rem;
+    
+font-weight: 400;
+    }
+    
+    .hero_part {
+
+}
+    
+    .hero-writing {
+    }
+    
+    .hero-writing h1 {
+    
+font-size: 6rem;
+    }
+    
+    .hero-writing p {
+        
+font-size: 2.3rem;
+        
+width: 60%;
+        
+padding: 0rem;
+    }
+    
+    .hero-btn {
+    
+padding-top: 4.2rem;
+    }
+    
+    .hero-btn button {
+    
+padding: 1.7rem 4rem;
+    
+font-size: 2rem;
+    }
+
+/* <!-- -----------------------chef-section--------- --> */
+.chef-writing p {
+    width: 60%;
+    font-size: 1.8rem;
+}
+.chef-box-part {
+    width: 98%;
+    padding: 5rem 0rem 0rem 0rem;
+}
+
+.chef-box {}
+
+.chef-box img {
+    width: 19rem;
+    height: 19rem;
+}
+
+.chef-box h3 {
+    font-size: 3.4rem;
+}
+
+.chef-box h4 {
+    font-size: 2.2rem;
+}
+/* <!-- -----------------------best burger _section---------  --> */
+.best_burger_img {
+}
+
+.best_burger_img img {
+}
+
+.best_burger_writing {
+}
+
+.best_burger_writing h4 {
+    font-size: 5.8rem;
+}
+
+.best_burger_writing p {
+    font-size: 2.3rem;
+}
+
+.best_burger_writing button{
+    padding: 2rem 4rem;
+    font-size: 2.4rem;
+}
+
+/* <!-- -----------------------big burger=section----------  --> */
+
+.big_burger_writing {}
+
+.big_burger_writing h4 {
+    font-size: 5.8rem;
+}
+
+.big_burger_writing p {
+    font-size: 2.3rem;
+}
+
+.big_burger_writing button {
+    padding: 2rem 4rem;
+    font-size: 2.4rem;
+}
+
+.big_burger_img {
+}
+
+.big_burger_img img {
+}
+
+/* <!-- --------------------statistics section------------ --> */
+
+.statistics-writing {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.statistics-writing h4 {
+    font-size: 4.8rem;
+}
+
+.statistics-writing p {
+    font-size: 2.3rem;
+    padding: 2rem 2rem;
+    width: 75%;
+    margin: auto;
+}
+
+.statistics-box-part {
+}
+
+.statistics-box {
+    padding: 4rem;
+}
+
+.statistics-box h4 {font-size: 7rem;}
+
+.statistics-box h5 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* <!-- ------------------------popular section-----------  --> */
+
+.popular-heading {
+}
+
+.popular-heading h1 {
+    font-size: 5.7rem;
+    word-spacing: 1.5rem;
+}
+
+.popular-box-part {
+    padding-top: 11rem;
+}
+.popular-box-part {
+    padding-top: 9rem;
+}
+
+.popular-box {
+    padding: 3rem 0rem;
+    width: 30%;
+}
+
+.popular-box h5 {
+    font-size: 3rem;
+    color: #f64b3c;
+    padding-bottom: 1rem;
+}
+
+.popular-box img {
+    width: 30%;
+    padding-top: 1rem;
+}
+
+.popular-box h6 {
+    font-size: 3rem;
+    
+}
+
+.popular-box p {
+    font-size: 1.8rem;
+    padding: 3rem 1rem;
+}
+
+.popular-box button {
+    padding: 2rem 4rem;
+    font-size: 1.7rem;
+}
+
+
+/* <!-- ---------------------------barry section-----------  --> */
+
+.barry-writing {
+    width: 75%;
+    padding: 8rem 0rem;
+}
+
+.barry-writing p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+}
+
+
+/* <!-- ----------------------------dmup section----------------- --> */
+
+.dmup-writing-part h2 {
+    font-size: 5rem;
+    word-spacing: 1.4rem;
+}
+
+.dmup-writing-part p {
+    font-size: 2rem;
+    width: 60%;
+}
+/* <!-- ---------------------------details section----------------  --> */
+.title h2 {
+    font-size: 3.7rem;
+    word-spacing: 1rem;
+}
+
+.title p {
+    font-size: 1.8rem;
+    width: 92%;
+    padding: 3rem 0rem;
+}
+
+
+/* ------------------------- */
+.fa-instagram:before {
+    color: black;
+    padding: .8rem;
+    background-color: white;
+    border-radius: 5rem;
+    }
+
+    .fa-facebook-f:before{
+        color: black;
+        padding: 0.8rem 1.2rem;
+        background-color: white;
+        border-radius: 5rem;
+    }
+
+    .fa-twitter:before{
+        color: black;
+        padding: .8rem .9rem;
+        background-color: white;
+        border-radius: 5rem;
+    }
+
+    .fa-whatsapp:before{
+        color: black;
+        padding: .8rem 1rem;
+        background-color: white;
+        border-radius: 5rem;
+    }
+/* ------------------------- */
+
+.icon-part a i {
+    font-size: 1.8rem;
+}
+
+.about h3{font-size: 2rem;}
+
+.about ul {
+    padding: 1rem 0rem;
+}
+
+.about li {
+    padding: .5rem 0rem;
+}
+
+.about a {
+    font-size: 1.2rem;
+    }
+
+.services h3{font-size: 2rem;}
+
+.services ul {
+    padding: 1rem 0rem;
+}
+
+.services li {
+    padding: .5rem 0rem;
+}
+
+.services a {
+    font-size: 1.2rem;
+}
+.others h3{font-size: 2rem;}
+
+.others ul {
+    padding: 1rem 0rem;
+}
+
+.others li{padding: .5rem 0rem;} 
+.others a {font-size: 1.2rem;}
+}
+
+/* ------------------------------large tablet-------- */
+@media (min-width:769px) and (max-width:1023px){
+    /* -----------------global---------- */
+    .container{
+    }
+    
+    section{
+        padding: 7rem 0rem;
+    /* ------------------------------------ */
+    }
+    nav {
+        padding-top: 1rem;
+        }
+        
+        .logo {
+        
+padding: 0rem 3rem;
+        
+position: relative;
+        
+left: 1rem;
+        
+top: 1rem;
+        }
+        
+        .logo img {
+            height: auto;
+            width: 5rem;
+        }
+        
+        .menu_list {
+            position: absolute;
+            right: 2rem;
+        }
+        
+        .menu_list ul {
+        }
+        
+        .menu_list li {
+        }
+        
+        .menu_list a {
+        
+font-size: 1.5rem;
+        
+padding: 1rem 1.5rem;
+        
+margin: 0rem .5rem;
+        
+font-weight: 400;
+        }
+        
+        .hero_part {
+    
+padding: 5rem 0rem;
+    }
+        
+        .hero-writing {
+            padding-left: 5%;
+        }
+        
+        .hero-writing h1 {
+        
+font-size: 4.8rem;
+        }
+        
+        .hero-writing p {
+            
+font-size: 2rem;
+            
+width: 60%;
+            
+padding: 0rem;
+        }
+        
+        .hero-btn {
+        
+padding-top: 3.2rem;
+padding-left: 5%;
+        }
+        
+        .hero-btn button {
+        
+padding: 1.6rem 3.5rem;
+        
+font-size: 2rem;
+        }
+    
+    /* <!-- -----------------------chef-section--------- --> */
+    
+    .chef-writing h2 {
+        font-size: 3.5rem;
+        
+    }
+    
+    .chef-writing p {
+        width: 75%;
+        font-size: 1.7rem;
+    }
+    .chef-box-part {
+        padding: 4rem 0rem 0rem 0rem;
+    }
+    
+    .chef-box {}
+    
+    .chef-box img {
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    .chef-box h3 {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .chef-box h4 {
+        font-size: 1.9rem;
+    }
+    /* <!-- -----------------------best burger _section---------  --> */
+    .best_burger_img {
+    }
+    
+    .best_burger_img img {
+    }
+    
+    .best_burger_writing {
+    }
+    
+    .best_burger_writing h4 {
+        font-size: 4.8rem;
+    }
+    
+    .best_burger_writing p {
+        font-size: 1.7rem;
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    
+    .best_burger_writing button{
+        padding: 1.6rem 3.5rem;
+        font-size: 2rem;
+    }
+    
+    /* <!-- -----------------------big burger=section----------  --> */
+    
+    .big_burger_writing {
+}
+    
+    .big_burger_writing h4 {
+        font-size: 4.8rem;
+    }
+    
+    .big_burger_writing p {
+        font-size: 1.7rem;
+        padding: 2rem 0rem;
+    }
+    
+    .big_burger_writing button {
+        padding: 1.6rem 3.5rem;
+        font-size: 2rem;
+    }
+    
+    .big_burger_img {
+    text-align: end !important;
+    }
+    
+    .big_burger_img img {
+    }
+    
+    /* <!-- --------------------statistics section------------ --> */
+    
+    .statistics-writing {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .statistics-writing h4 {
+        font-size: 4.4rem;
+    }
+    
+    .statistics-writing p {
+        font-size: 2rem;
+        padding: 1rem 4rem;
+        margin: auto;
+        width: 85%;
+    }
+    
+    .statistics-box-part {
+    justify-content: space-around;
+    }
+    
+    .statistics-box {
+        padding: 3rem;
+    }
+    
+    .statistics-box h4 {font-size: 5rem;}
+    
+    .statistics-box h5 {
+        font-size: 2rem;
+    }
+    
+    /* <!-- ------------------------popular section-----------  --> */
+    
+    .popular-heading {
+    }
+    
+    .popular-heading h1 {
+        font-size: 5rem;
+        word-spacing: 1.2rem;
+    }
+    
+    .popular-box-part {
+    }
+    .popular-box-part {
+        padding-top: 8rem;
+        justify-content: space-between;
+    }
+    
+    .popular-box {
+        padding: 4rem 0rem;
+        width: 32%;
+    }
+    
+    .popular-box h5 {
+        font-size: 2.5rem;
+    }
+    
+    .popular-box img {
+        width: 25%;
+    }
+    
+    .popular-box h6 {
+        font-size: 2.8rem;
+    }
+    
+    .popular-box p {
+        font-size: 1.5rem;
+        padding: 1rem .3rem 1.5rem;
+    }
+    
+    .popular-box button {
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+    
+    
+    /* <!-- ---------------------------barry section-----------  --> */
+    
+    .barry-writing {
+        width: 75%;
+        padding: 5rem 0rem;
+    }
+    
+    .barry-writing p {
+        font-size: 2.4rem;
+        line-height: 1.5;
+    }
+    
+    
+    /* <!-- ----------------------------dmup section----------------- --> */
+    
+    .dmup-writing-part {
+        padding-top: 2rem;
+    }
+    .dmup-writing-part h2 {
+        font-size: 4rem;
+        word-spacing: .5rem;
+    }
+    
+    .dmup-writing-part p {
+        font-size: 2rem;
+        width: 75%;
+        padding: 3rem 0rem;
+    }
+    .dmup-form {
+        width: 63%;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    /* <!-- ---------------------------details section----------------  --> */
+    .title h2 {
+        font-size: 3.4rem;
+        word-spacing: 0rem;
+    }
+    
+    .title p {
+        font-size: 1.6rem;
+        width: 92%;
+        padding: 3rem 0rem;
+    }
+    .icon-part a i {
+        font-size: 1.5rem;
+    }
+    
+    .about h3{font-size: 1.8rem;}
+    
+    .about ul {
+        padding: 1rem 0rem;
+    }
+    
+    .about li {
+        padding: .5rem 0rem;
+    }
+    
+    .about a {
+        font-size: 1.2rem;
+        }
+    
+    .services h3{font-size: 1.8rem;}
+    
+    .services ul {
+        padding: 1rem 0rem;
+    }
+    
+    .services li {
+        padding: .5rem 0rem;
+    }
+    
+    .services a {
+        font-size: 1.2rem;
+    }
+    .others h3{font-size: 1.8rem;}
+    
+    .others ul {
+        padding: 1rem 0rem;
+    }
+    
+    .others li{padding: .5rem 0rem;} 
+    .others a {font-size: 1.2rem;}
+}
+
+/* ----------------------------tablet devices------------------- */
+@media (min-width:601px) and (max-width:768px) {
+    /* -----------------global---------- */
+    .container{
+        }
+        
+        section{
+            padding: 5rem 0rem;
+        }
+    /* ----------------------------------- */
+        nav {
+            padding-top: 1rem;
+            }
+            
+            .logo {
+            
+padding: 0rem 3rem;
+            
+padding: 0rem 2rem;
+            
+on: relative;
+            
+left: 0rem;
+            
+top: 0rem;
+            }
+            
+            .logo img {
+                height: auto;
+                width: 5rem;
+            }
+            
+            .menu_list {
+                position: absolute;
+                right: 1rem;
+            }
+            
+            .menu_list ul {
+            }
+            
+            .menu_list li {
+            }
+            
+            .menu_list a {
+            
+font-size: 1.3rem;
+            
+padding: 1rem 1rem;
+            
+margin: 0rem .5rem;
+            
+font-weight: 400;
+            }
+            
+            .hero_part {
+        
+padding: 5rem 0rem;
+        }
+            
+            .hero-writing {
+                padding-left: 5%;
+            }
+            
+            .hero-writing h1 {
+            
+font-size: 3.8rem;
+            
+padding: 2rem 0rem;
+            }
+            
+            .hero-writing p {
+                
+font-size: 1.8rem;
+                
+width: 65%;
+                
+padding: 0rem;
+            }
+            
+            .hero-btn {
+            
+    padding-top: 3.2rem;
+    padding-left: 5%;
+            }
+            
+            .hero-btn button {
+            
+padding: 1.3rem 2.5rem;
+            
+font-size: 1.8rem;
+            }
+        
+        /* <!-- -----------------------chef-section--------- --> */
+        
+        .chef-writing h2 {
+            font-size: 3rem;
+        }
+        
+        .chef-writing p {
+            width: 70%;
+            font-size: 1.5rem;
+        }
+        .chef-box-part {
+            width: 100%;
+            padding: 4rem 0rem 0rem 0rem;
+        }
+        
+        .chef-box {}
+        
+        .chef-box img {
+            width: 12rem;
+            height: 12rem;
+        }
+        
+        .chef-box h3 {
+            font-size: 2.3rem;
+            padding-bottom: 1rem;
+        }
+        
+        .chef-box h4 {
+            font-size: 1.7rem;
+        }
+        /* <!-- -----------------------best burger _section---------  --> */
+        .best_burger_img {
+        }
+        
+        .best_burger_img img {
+        }
+        
+        .best_burger_writing {
+        }
+        
+        .best_burger_writing h4 {
+            font-size: 4rem;
+        }
+        
+        .best_burger_writing p {
+            font-size: 1.6rem;
+            padding: 1rem 0rem 1rem 0rem;
+        }
+        
+        .best_burger_writing button{
+            padding: 1.3rem 2.5rem;
+            font-size: 1.8rem;
+        }
+        
+        /* <!-- -----------------------big burger=section----------  --> */
+        
+        .big_burger_writing {
+    }
+        
+        .big_burger_writing h4 {
+            font-size: 4rem;
+        }
+        
+        .big_burger_writing p {
+            font-size: 1.6rem;
+            padding: 1rem 0rem;
+        }
+        
+        .big_burger_writing button {
+            padding: 1.3rem 2.5rem;
+            font-size: 1.8rem;
+        }
+        
+        .big_burger_img {
+        text-align: end !important;
+        }
+        
+        .big_burger_img img {
+        }
+        
+        /* <!-- --------------------statistics section------------ --> */
+        
+        .statistics-writing {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .statistics-writing h4 {
+            font-size: 4rem;
+        }
+        
+        .statistics-writing p {
+            font-size: 1.8rem;
+            padding: 1rem 4rem;
+            margin: auto;
+            width: 86%;
+        }
+        
+        .statistics-box-part {
+        justify-content: space-around;
+        }
+        
+        .statistics-box {
+            padding: 2rem;
+        }
+        
+        .statistics-box h4 {font-size: 4rem;}
+        
+        .statistics-box h5 {
+            font-size: 1.8rem;
+        }
+        
+        /* <!-- ------------------------popular section-----------  --> */
+        
+        .popular-heading {
+        }
+        
+        .popular-heading h1 {
+            font-size: 4rem;
+            word-spacing: 1rem;
+        }
+        
+        .popular-box-part {
+        }
+        .popular-box-part {
+            padding-top: 8rem;
+            justify-content: space-between;
+        }
+        
+        .popular-box {
+            padding: 4rem 0rem;
+            width: 32%;
+        }
+        
+        .popular-box h5 {
+            font-size: 2rem;
+        }
+        
+        .popular-box img {
+            width: 35%;
+        }
+        
+        .popular-box h6 {
+            font-size: 2.4rem;
+        }
+        
+        .popular-box p {
+            font-size: 1.3rem;
+            padding: 1rem .3rem 1.5rem;
+        }
+        
+        .popular-box button {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+        }
+        
+        
+        /* <!-- ---------------------------barry section-----------  --> */
+        
+        .barry-writing {
+            width: 100%;
+            padding: 5rem 0rem;
+        }
+        
+        .barry-writing p {
+            font-size: 2.2rem;
+            line-height: 1.5;
+        }
+        .barry-writing h3 {
+            font-size: 3.8rem;
+            color: white;
+            padding-top: 5rem;
+        }
+        
+        
+        /* <!-- ----------------------------dmup section----------------- --> */
+        
+        .dmup-writing-part {
+            padding-top: 0rem;
+        }
+        .dmup-writing-part h2 {
+            font-size: 3.8rem;
+            word-spacing: .5rem;
+        }
+        
+        .dmup-writing-part p {
+            font-size: 2rem;
+            width: 85%;
+            padding: 2rem 0rem;
+        }
+        .dmup-form {
+            width: 81%;
+            margin: auto;
+            padding-top: 1rem;
+            padding-bottom: 0rem;
+        }
+        /* <!-- ---------------------------details section----------------  --> */
+        .title h2 {
+            font-size: 3rem;
+            word-spacing: 0rem;
+        }
+        
+        .title p {
+            font-size: 1.2rem;
+            width: 92%;
+            padding: 2rem 0rem;
+        }
+        .icon-part a i {
+            font-size: 1rem;
+        }
+        
+        .about h3{font-size: 1.5rem;}
+        
+        .about ul {
+            padding: 1rem 0rem;
+        }
+        
+        .about li {
+            padding: .5rem 0rem;
+        }
+        
+        .about a {
+            font-size: 1.2rem;
+            }
+        
+        .services h3{font-size: 1.5rem;}
+        
+        .services ul {
+            padding: 1rem 0rem;
+        }
+        
+        .services li {
+            padding: .5rem 0rem;
+        }
+        
+        .services a {
+            font-size: 1.2rem;
+        }
+        .others h3{font-size: 1.5rem;}
+        
+        .others ul {
+            padding: 1rem 0rem;
+        }
+        
+        .others li{padding: .5rem 0rem;} 
+        .others a {font-size: 1.2rem;}
+}
+
+/* -----------------large mobile devices---------- */
+@media (min-width:425px) and (max-width:600px){
+        section{
+            padding: 4rem 0rem;
+        }
+    /* ----------------------------------- */
+        nav {
+            padding-top: 1rem;
+            flex-direction: column;
+            border-bottom: .2rem solid white;
+            }
+            
+            .logo {
+            
+padding: 0rem 2rem;
+            
+position: relative;
+            
+left: 0rem;
+            
+top: 0rem;
+            }
+            
+            .logo img {
+                height: auto;
+                width: 6rem;
+                padding: .5rem;
+                border: .2rem solid white;
+            }
+            
+            .menu_list {
+                text-align: end;
+                position: unset;
+                padding-top: 1rem;
+                padding-bottom: .5rem;
+            }
+            
+            .menu_list ul {
+            }
+            
+            .menu_list li {
+            }
+            
+            .menu_list a {
+            
+font-size: 1.3rem;
+            
+padding: .5rem .5rem;
+            
+margin: 0rem .5rem;
+            
+font-weight: 400;
+            }
+            
+            .hero_part {
+        
+padding: 0rem 0rem 3rem;
+        }
+            
+            .hero-writing {
+                padding-left: 5%;
+            }
+            
+            .hero-writing h1 {
+            
+font-size: 3.5rem;
+            
+padding: 2rem 0rem;
+            }
+            
+            .hero-writing p {
+                
+font-size: 1.8rem;
+                
+width: 65%;
+                
+padding: 0rem;
+            }
+            
+            .hero-btn {
+            
+    padding-top: 3.2rem;
+    padding-left: 5%;
+            }
+            
+            .hero-btn button {
+            
+padding: 1.3rem 2.5rem;
+            
+font-size: 1.8rem;
+            }
+        
+        /* <!-- -----------------------chef-section--------- --> */
+        
+        .chef-writing h2 {
+            font-size: 2.7rem;
+        }
+        
+        .chef-writing p {
+            width: 70%;
+            font-size: 1.5rem;
+        }
+        .chef-box-part {
+            padding: 2rem 0rem 0rem 0rem;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .chef-box {}
+        
+        .chef-box img {
+            width: 12rem;
+            height: 12rem;
+        }
+        
+        .chef-box h3 {
+            font-size: 2.3rem;
+            padding-bottom: 1rem;
+        }
+        
+        .chef-box h4 {
+            font-size: 1.7rem;
+        }
+        /* <!-- -----------------------best burger _section---------  --> */
+        .best_burger_img {
+        }
+        
+        .best_burger_img img {
+        }
+        
+        .best_burger_writing {
+        }
+        
+        .best_burger_writing h4 {
+            font-size: 4rem;
+        }
+        
+        .best_burger_writing p {
+            font-size: 1.6rem;
+            padding: 1rem 0rem 1rem 0rem;
+        }
+        
+        .best_burger_writing button{
+            padding: 1.3rem 2.5rem;
+            font-size: 1.8rem;
+        }
+        
+        /* <!-- -----------------------big burger=section----------  --> */
+        
+        .big_burger_writing {
+    }
+        
+        .big_burger_writing h4 {
+            font-size: 4rem;
+        }
+        
+        .big_burger_writing p {
+            font-size: 1.6rem;
+            padding: 1rem 0rem;
+        }
+        
+        .big_burger_writing button {
+            padding: 1.3rem 2.5rem;
+            font-size: 1.8rem;
+        }
+        
+        .big_burger_img {
+        text-align: end !important;
+        }
+        
+        .big_burger_img img {
+        }
+        
+        /* <!-- --------------------statistics section------------ --> */
+        
+        .statistics-writing {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .statistics-writing h4 {
+            font-size: 4rem;
+        }
+        
+        .statistics-writing p {
+            font-size: 1.8rem;
+            padding: 1rem 4rem;
+            margin: auto;
+            width: 86%;
+        }
+        
+        .statistics-box-part {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+        }
+        
+        .statistics-box {
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .statistics-box h4 {font-size: 4rem;}
+        
+        .statistics-box h5 {
+            font-size: 1.8rem;
+        }
+        
+        /* <!-- ------------------------popular section-----------  --> */
+        
+        .popular-heading {
+        }
+        
+        .popular-heading h1 {
+            font-size: 3.5rem;
+            word-spacing: 1rem;
+        }
+        
+        .popular-box-part {
+        }
+        .popular-box-part {
+            padding-top: 4rem;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        
+        .popular-box {
+            padding: 4rem 0rem;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 3rem;
+        }
+        
+        .popular-box h5 {
+            font-size: 3.3rem;
+        }
+        
+        .popular-box img {
+            width: 35%;
+        }
+        
+        .popular-box h6 {
+            font-size: 3.5rem;
+        }
+        
+        .popular-box p {
+            font-size: 2.3rem;
+            padding: 1rem .3rem 1.5rem;
+        }
+        
+        .popular-box button {
+            padding: 2rem 5rem;
+            font-size: 2.6rem;
+        }
+        
+        
+        /* <!-- ---------------------------barry section-----------  --> */
+        
+        .barry-writing {
+            width: 100%;
+            padding: 2rem 0rem;
+        }
+        
+        .barry-writing p {
+            font-size: 1.8rem;
+            line-height: 1.3;
+            font-weight: 400;
+            padding: 0rem 2rem;
+            margin: auto;
+        }
+        .barry-writing h3 {
+            font-size: 3rem;
+            padding-top: 2rem;
+        }
+        
+        
+        /* <!-- ----------------------------dmup section----------------- --> */
+        
+        .dmup-writing-part {
+            padding-top: 0rem;
+        }
+        .dmup-writing-part h2 {
+            font-size: 2.7rem;
+            word-spacing: 0;
+        }
+        
+        .dmup-writing-part p {
+            font-size: 1.8rem;
+            width: 86%;
+            padding: 1rem 0rem;
+            font-weight: 400;
+        }
+        .dmup-form {
+            width: 100%;
+            margin: auto;
+            padding-top: 1rem;
+            padding-bottom: 0rem;
+        }
+        #inputemail {
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            width: 50%;
+        }
+        
+        .dmup-form input{
+            
+        }
+        
+        .dmup-form input[type="submit"] {
+            padding: 1rem 1rem;
+            font-size: 1.5rem;
+        }
+        /* <!-- ---------------------------details section----------------  --> */
+        .title h2 {
+            font-size: 2.6rem;
+            word-spacing: 0rem;
+        }
+        
+        .title p {
+            font-size: 1rem;
+            width: 92%;
+            padding: 2rem 0rem;
+        }
+        .icon-part a i {
+            font-size: 1rem;
+            margin-right: .5rem;
+        }
+        
+        .about h3{font-size: 1.2rem;}
+        
+        .about ul {
+            padding: 1rem 0rem;
+        }
+        
+        .about li {
+            padding: .5rem 0rem;
+        }
+        
+        .about a {
+            font-size: 1.2rem;
+            }
+        
+        .services h3{font-size: 1.2rem;}
+        
+        .services ul {
+            padding: 1rem 0rem;
+        }
+        
+        .services li {
+            padding: .5rem 0rem;
+        }
+        
+        .services a {
+            font-size: 1.2rem;
+        }
+        .others h3{font-size: 1.2rem;}
+        
+        .others ul {
+            padding: 1rem 0rem;
+        }
+        
+        .others li{padding: .5rem 0rem;} 
+        .others a {font-size: 1.2rem;}
+}
+/* --------------------mediun mobile devices------- */
+@media (min-width:321px) and (max-width:424px){
+        section{
+            padding: 2rem 0rem;
+        }
+    /* ----------------------------------- */
+        nav {
+            padding-top: 1rem;
+            flex-direction: column;
+            border-bottom: .2rem solid white;
+            }
+            
+            .logo {
+            
+padding: 0rem 2rem;
+            
+position: relative;
+            
+left: 0rem;
+            
+top: 0rem;
+            }
+            
+            .logo img {
+                height: auto;
+                width: 4rem;
+                padding: .5rem;
+                border: .2rem solid white;
+            }
+            
+            .menu_list {
+                text-align: end;
+                position: unset;
+                padding-top: .5rem;
+                padding-bottom: .5rem;
+            }
+            
+            .menu_list ul {
+            }
+            
+            .menu_list li {
+            }
+            
+            .menu_list a {
+            
+font-size: 1rem;
+            
+padding: .5rem .7rem;
+            
+margin: 0rem 0rem;
+            
+font-weight: 400;
+            }
+            
+            .hero_part {
+        
+padding: 0rem 0rem 3rem;
+        }
+            
+            .hero-writing {
+            }
+            
+            .hero-writing h1 {
+            
+font-size: 3rem;
+            
+padding: 2rem 0rem;
+            }
+            
+            .hero-writing p {
+                
+font-size: 1.6rem;
+                
+width: 100%;
+                
+padding: 0rem;
+            }
+            
+            .hero-btn {
+            
+padding-top: 2.2rem;
+            }
+            
+            .hero-btn button {
+            
+padding: 1rem 2rem;
+            
+font-size: 1.6rem;
+            }
+        
+        /* <!-- -----------------------chef-section--------- --> */
+        
+        .chef-writing h2 {
+            font-size: 2.6rem;
+        }
+        
+        .chef-writing p {
+            width: 90%;
+            font-size: 1.3rem;
+            padding: 1rem 0rem;
+        }
+        .chef-box-part {
+            padding: 2rem 0rem 0rem 0rem;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .chef-box {
+    margin-bottom: 2rem;
+}
+        
+        .chef-box img {
+            width: 12rem;
+            height: 12rem;
+        }
+        
+        .chef-box h3 {
+            font-size: 2.3rem;
+            padding-bottom: 1rem;
+        }
+        
+        .chef-box h4 {
+            font-size: 1.7rem;
+        }
+        /* <!-- -----------------------best burger _section---------  --> */
+        .best_burger_img {
+        }
+        
+        .best_burger_img img {
+        }
+        
+        .best_burger_writing {
+        }
+        
+        .best_burger_writing h4 {
+            font-size: 2.6rem;
+        }
+        
+        .best_burger_writing p {
+            font-size: 1.3rem;
+            padding: .5rem 0rem 1rem;
+        }
+        
+        .best_burger_writing button{
+            padding: 1rem 2rem;
+            font-size: 1.6rem;
+        }
+        
+        /* <!-- -----------------------big burger=section----------  --> */
+        
+        .big_burger_writing {
+    }
+        
+        .big_burger_writing h4 {
+            font-size: 2.6rem;
+        }
+        
+        .big_burger_writing p {
+            font-size: 1.3rem;
+            padding: .5rem 0rem 1rem;
+        }
+        
+        .big_burger_writing button {
+            padding: 1rem 2rem;
+            font-size: 1.6rem;
+        }
+        
+        .big_burger_img {
+        text-align: end !important;
+        }
+        
+        .big_burger_img img {
+        }
+        
+        /* <!-- --------------------statistics section------------ --> */
+        
+        .statistics-writing {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .statistics-writing h4 {
+            font-size: 2.6rem;
+        }
+        
+        .statistics-writing p {
+            font-size: 1.5rem;
+            padding: .5rem 0rem;
+            margin: auto;
+        }
+        
+        .statistics-box-part {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+        }
+        
+        .statistics-box {
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .statistics-box h4 {font-size: 4rem;}
+        
+        .statistics-box h5 {
+            font-size: 1.8rem;
+        }
+        
+        /* <!-- ------------------------popular section-----------  --> */
+        
+        .popular-heading {
+        }
+        
+        .popular-heading h1 {
+            font-size: 2.6rem;
+            word-spacing: .5rem;
+        }
+        
+        .popular-box-part {
+        }
+        .popular-box-part {
+            padding-top: 2rem;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        
+        .popular-box {
+            padding: 4rem 0rem;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 3rem;
+        }
+        
+        .popular-box h5 {
+            font-size: 2.3rem;
+        }
+        
+        .popular-box img {
+            width: 29%;
+        }
+        
+        .popular-box h6 {
+            font-size: 2.5rem;
+        }
+        
+        .popular-box p {
+            font-size: 1.6rem;
+            padding: 1rem .3rem 1.5rem;
+        }
+        
+        .popular-box button {
+            padding: 1.5rem 4rem;
+            font-size: 1.6rem;
+        }
+        
+        
+        /* <!-- ---------------------------barry section-----------  --> */
+        
+        .barry-writing {
+            width: 100%;
+            padding: 1rem 0rem;
+        }
+        
+        .barry-writing p {
+            font-size: 1.6rem;
+            line-height: 1.1;
+            font-weight: 400;
+            padding: 0rem 2rem;
+            margin: auto;
+        }
+        .barry-writing h3 {
+            font-size: 2.6rem;
+            padding-top: 1rem;
+        }
+        
+        
+        /* <!-- ----------------------------dmup section----------------- --> */
+        
+        .dmup-writing-part {
+            padding-top: 0rem;
+        }
+        .dmup-writing-part h2 {
+            font-size: 2.6rem;
+            word-spacing: 0;
+        }
+        
+        .dmup-writing-part p {
+            font-size: 1.3rem;
+            width: 90%;
+            padding: 1rem 0rem;
+            font-weight: 400;
+        }
+        .dmup-form {
+            width: 100%;
+            margin: auto;
+            padding-top: 1rem;
+            padding-bottom: 0rem;
+        }
+        #inputemail {
+            padding: 1rem 2rem;
+            font-size: 1.3rem;
+            width: 50%;
+        }
+        
+        .dmup-form input{
+            
+        }
+        
+        .dmup-form input[type="submit"] {
+            padding: 1rem 1rem;
+            font-size: 1.3rem;
+        }
+        /* <!-- ---------------------------details section----------------  --> */
+        .title h2 {
+            font-size: 1.6rem;
+            word-spacing: 0rem;
+        }
+        
+        .title p {
+            font-size: 1rem;
+            width: 92%;
+            padding: 1rem 0rem;
+        }
+        .icon-part a i {
+            font-size: 1.5rem;
+            margin-right: .5rem;
+        }
+        .icon-part i::before {
+            color: #fff;
+            border-radius: 0rem;
+            background-color: transparent;
+            padding: 0rem;
+            }
+        
+        .about h3{font-size: 1.2rem;}
+        
+        .about ul {
+            padding: 1rem 0rem;
+        }
+        
+        .about li {
+            padding: .5rem 0rem;
+        }
+        
+        .about a {
+            font-size: 1rem;
+            }
+        
+        .services h3{font-size: 1.2rem;}
+        
+        .services ul {
+            padding: 1rem 0rem;
+        }
+        
+        .services li {
+            padding: .5rem 0rem;
+        }
+        
+        .services a {
+            font-size: 1rem;
+        }
+        .others h3{font-size: 1.2rem;}
+        
+        .others ul {
+            padding: 1rem 0rem;
+        }
+        
+        .others li{padding: .5rem 0rem;} 
+        .others a {font-size: 1rem;}
+}
+
+/* --------------------small mobile devices----------  */
+@media only screen and (max-width:320px){
+    section{
+        padding: 2rem 0rem;
+    }
+    nav {
+        padding-top: 1rem;
+        flex-direction: column;
+        }
+        
+        .logo {
+        
+padding: 0rem 2rem;
+        
+position: relative;
+        
+left: 0rem;
+        
+top: 0rem;
+        }
+        
+        .logo img {
+            height: auto;
+            width: 4rem;
+            padding: .5rem;
+            border: .2rem solid white;
+        }
+        
+        .menu_list {
+            width: 100%;
+            position: absolute;
+            display: none;
+            left: 0rem;
+            top: 1rem;
+        }
+        
+        .menu_list ul {
+        width: 100%;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: end; */
+        /* justify-content: space-between; */
+        }
+        
+        .menu_list li {
+        display: block;
+        width: fit-content;
+        }
+        
+        .menu_list a {
+        
+font-size: 1rem;
+        
+padding: 0.5rem .7rem;
+        
+margin: 2rem 0rem;
+        
+font-weight: 400;
+        }
+        
+        .hero_part {
+    
+padding: 0rem 0rem 3rem;
+    }
+        
+        .hero-writing {
+        }
+        
+        .hero-writing h1 {
+        
+font-size: 2.5rem;
+        
+padding: 2rem 0rem;
+        }
+        
+        .hero-writing p {
+            
+font-size: 1.3rem;
+            
+width: 100%;
+            
+padding: 0rem;
+        }
+        
+        .hero-btn {
+        
+padding-top: 1.2rem;
+        }
+        
+        .hero-btn button {
+        
+padding: 1rem 1.5rem;
+        
+font-size: 1.3rem;
+        }
+    
+    /* <!-- -----------------------chef-section--------- --> */
+    
+    .chef-writing h2 {
+        font-size: 2rem;
+    }
+    
+    .chef-writing p {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: .5rem 0rem;
+    }
+    .chef-box-part {
+        padding: 2rem 0rem 0rem 0rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chef-box {
+margin-bottom: 2rem;
+}
+    
+    .chef-box img {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .chef-box h3 {
+        font-size: 1.8rem;
+        padding-bottom: .2rem;
+    }
+    
+    .chef-box h4 {
+        font-size: 1.3rem;
+    }
+    /* <!-- -----------------------best burger _section---------  --> */
+    .best_burger_img {
+    }
+    
+    .best_burger_img img {
+    width: 90%;
+    }
+    
+    .best_burger_writing {
+    }
+    
+    .best_burger_writing h4 {
+        font-size: 1.5rem;
+    }
+    
+    .best_burger_writing p {
+        font-size: .9rem;
+        padding: .5rem 0rem 1rem;
+    }
+    
+    .best_burger_writing button{
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+    
+    /* <!-- -----------------------big burger=section----------  --> */
+    
+    .big_burger_writing {
+}
+    
+    .big_burger_writing h4 {
+        font-size: 1.5rem;
+    }
+    
+    .big_burger_writing p {
+        font-size: .8rem;
+        padding: .5rem 0rem 1rem;
+    }
+    
+    .big_burger_writing button {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .big_burger_img {
+    text-align: end !important;
+    }
+    
+    .big_burger_img img {
+    width: 90%;
+    }
+    
+    /* <!-- --------------------statistics section------------ --> */
+    
+    .statistics-writing {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .statistics-writing h4 {
+        font-size: 2rem;
+    }
+    
+    .statistics-writing p {
+        font-size: 1.2rem;
+        padding: .5rem 0rem;
+        margin: auto;
+    }
+    
+    .statistics-box-part {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    }
+    
+    .statistics-box {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .statistics-box h4 {font-size: 3rem;}
+    
+    .statistics-box h5 {
+        font-size: 1.5rem;
+    }
+    
+    /* <!-- ------------------------popular section-----------  --> */   
+    .popular-heading h1 {
+        font-size: 2rem;
+        word-spacing: 0;
+    }
+    .popular-box-part {
+        padding-top: 2rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .popular-box {
+        padding: 2rem 0rem;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .popular-box h5 {
+        font-size: 1.8rem;
+    }
+    
+    .popular-box img {
+        width: 25%;
+    }
+    
+    .popular-box h6 {
+        font-size: 1.9rem;
+    }
+    
+    .popular-box p {
+        font-size: 01.2rem;
+        padding: 1rem .3rem 1.5rem;
+    }
+    
+    .popular-box button {
+        padding: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    
+    /* <!-- ---------------------------barry section-----------  --> */
+    
+    .barry-writing {
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+    
+    .barry-writing p {
+        font-size: 1.2rem;
+        line-height: 1.1;
+        font-weight: 400;
+        padding: 0rem 0rem;
+        margin: auto;
+    }
+    .barry-writing h3 {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    
+    
+    /* <!-- ----------------------------dmup section----------------- --> */
+    
+    .dmup-writing-part {
+        padding-top: 0rem;
+    }
+    .dmup-writing-part h2 {
+        font-size: 2rem;
+        word-spacing: 0;
+    }
+    
+    .dmup-writing-part p {
+        font-size: 1rem;
+        width: 90%;
+        padding: .5rem 0rem;
+        font-weight: 400;
+    }
+    .dmup-form {
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+    #inputemail {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        width: 60%;
+    }
+    
+    .dmup-form input{
+        
+    }
+    
+    .dmup-form input[type="submit"] {
+        padding: .5rem .5rem;
+        font-size: 1rem;
+    }
+    /* <!-- ---------------------------details section----------------  --> */
+    .details-row{
+ 
+        flex-direction: column;
+        align-items: center;
+        }
+    
+    .title h2 {
+        font-size: 1.6rem;
+        word-spacing: 0rem;
+    }
+    
+    .title p {
+        font-size: 1rem;
+        width: 92%;
+        padding: 1rem 0rem;
+    }
+    .icon-part a i {
+        font-size: 1.5rem;
+        margin-right: .5rem;
+    }
+    .icon-part i::before {
+        color: #fff;
+        border-radius: 0rem;
+        background-color: transparent;
+        padding: 0rem;
+        }
+    
+    .about h3{font-size: 1.2rem;}
+    
+    .about ul {
+        padding: 1rem 0rem;
+    }
+    
+    .about li {
+        padding: .5rem 0rem;
+    }
+    
+    .about a {
+        font-size: 1rem;
+        }
+    
+    .services h3{font-size: 1.2rem;}
+    
+    .services ul {
+        padding: 1rem 0rem;
+    }
+    
+    .services li {
+        padding: .5rem 0rem;
+    }
+    
+    .services a {
+        font-size: 1rem;
+    }
+    .others h3{font-size: 1.2rem;}
+    
+    .others ul {
+        padding: 1rem 0rem;
+    }
+    
+    .others li{padding: .5rem 0rem;} 
+    .others a {font-size: 1rem;}
+
+    .title {
+        width: 90%;
+        margin: 0rem auto 1rem;
+        }
+
+    .about {
+        width: 90%;
+        margin: 0rem auto 1rem;
+        }
+        
+    .services {
+    width: 90%;
+    margin: 0rem auto 1rem;
+    }
+    .others {
+    width: 90%;
+    margin: 0rem auto;
+    }
+}
